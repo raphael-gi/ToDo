@@ -1,0 +1,90 @@
+body {
+    background-color: #020C1A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #020C1A;
+    color: white;
+    border-style: solid;
+    cursor: pointer;
+}
+
+/* HEADER */
+#login {
+    margin-left: auto;
+}
+
+/* LOGIN */
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.box {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #0E2645;
+    display: flex;
+}
+.lbox {
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+    background-color: #020C1A;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    margin-left: 0px;
+}
+.rbox {
+    margin-left: 40%;
+    width: 600px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+i {
+    background-color: #020C1A;
+    padding: 10px;
+    border-radius: 20px;
+}
+#reg {
+    display: none;
+}
+#reginp {
+    display: none;
+}
+.sinp {
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: #0E2645;
+    color: white;
+    border: none;
+    border-bottom: solid;
+    padding: 10px;
+}
+.sinp:focus {
+    outline: none;
+}
+.sb {
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #020C1A;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
